@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+$white: #ffffff;
+$black: #000000;
+$grey: #808080;
+$dirty-grey: #666666;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 72px;
+
+  .deadlogo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    img {
+      height: 16px;
+      width: 19px;
+    }
+  }
+  nav {
+    ul {
+      display: flex;
+      gap: 37px;
+      list-style: none;
+      a {
+        text-decoration: none;
+        color: $black;
+        font-size: 12px;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.first {
+  width: 19px;
+  height: 16px;
+}
+
+button {
+  background-color: #000000;
+  color: #ffffff;
+  width: 158px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+main {
+  div.black {
+    background-color: $black;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.full {
+    display: flex;
+
+  }
+  div.text {
+    color: $white;
+    width: 387px;
+  }
+  h2 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 21px;
+    margin-bottom: 48px;
+  }
+
+  span {
+    font-size: 12px;
+    line-height: 100%;
+  }
+
+  .svg {
+    color: $white;
+    display: flex;
+    gap: 18px;
+  }
+  .photo {
+    width: 50%;
+  }
+}
+
+
+
+
+footer{
+    background-color: $black;
+    h1{
+        color: $white;
+        
+    }
+}
