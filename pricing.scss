@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+$black: #000000;
+$white: white;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+@mixin align-center {
+  display: flex;
+  align-items: center;
+}
+
+header {
+  height: 72px;
+  justify-content: space-around;
+  @include align-center;
+
+  div.logo {
+    @include align-center;
+    gap: 8px;
+  }
+  nav {
+    ul.nav {
+      display: flex;
+      list-style: none;
+      gap: 37px;
+
+      a {
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 700;
+        color: $black;
+      }
+    }
+  }
+  button {
+    background-color: $black;
+    width: 158px;
+    height: 40px;
+    border: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 700;
+  }
+}
+
+main {
+  .background {
+    display: flex;
+    height: 490px;
+    background-color: $black;
+    .texts {
+      @include align-center;
+      justify-content: center;
+      width: 50%;
+      color: $white;
+      .pricing_text {
+        width: 387px;
+
+        h2 {
+          font-size: 40px;
+          font-weight: 700;
+          letter-spacing: 4.17px;
+        }
+        p {
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+        }
+      }
+    }
+
+    .focus_pic {
+      width: 50%;
+    }
+  }
+}

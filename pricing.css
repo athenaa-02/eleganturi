@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+header {
+  height: 72px;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+header div.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+header nav ul.nav {
+  display: flex;
+  list-style: none;
+  gap: 37px;
+}
+header nav ul.nav a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  color: #000000;
+}
+header button {
+  background-color: #000000;
+  width: 158px;
+  height: 40px;
+  border: none;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+main .background {
+  display: flex;
+  height: 490px;
+  background-color: #000000;
+}
+main .background .texts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  color: white;
+}
+main .background .texts .pricing_text {
+  width: 387px;
+}
+main .background .texts .pricing_text h2 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 4.17px;
+}
+main .background .texts .pricing_text p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}
+main .background .focus_pic {
+  width: 50%;
+}/*# sourceMappingURL=pricing.css.map */
