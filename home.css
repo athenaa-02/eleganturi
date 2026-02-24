@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 72px;
+}
+header .deadlogo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+header .deadlogo img {
+  height: 16px;
+  width: 19px;
+}
+header nav ul {
+  display: flex;
+  gap: 37px;
+  list-style: none;
+}
+header nav ul a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.first {
+  width: 19px;
+  height: 16px;
+}
+
+button {
+  background-color: #000000;
+  color: #ffffff;
+  width: 158px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+main div.black {
+  background-color: #000000;
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+main div.full {
+  display: flex;
+}
+main div.text {
+  color: #ffffff;
+  width: 387px;
+}
+main h2 {
+  font-size: 40px;
+  line-height: 48px;
+}
+main p {
+  font-size: 15px;
+  line-height: 25px;
+  margin-top: 21px;
+  margin-bottom: 48px;
+}
+main span {
+  font-size: 12px;
+  line-height: 100%;
+}
+main .svg {
+  color: #ffffff;
+  display: flex;
+  gap: 18px;
+}
+main .photo {
+  width: 50%;
+}
+
+footer {
+  background-color: #000000;
+}
+footer h1 {
+  color: #ffffff;
+}/*# sourceMappingURL=home.css.map */
