@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+$white:#ffffff;
+$black:#000000;
+$grey:#808080;
+
+
+*{
+    font-family: "DM Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 72px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    nav{
+        ul{
+            display: flex;
+            gap:37px;
+            list-style: none;
+            li{
+                cursor: pointer;
+                a{
+                    text-decoration: nones;
+                    color: $black;
+                }
+            }
+        }
+    }
+div.headlogo{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    img{
+        height: 16px;
+        width: 17px;
+    }
+}
+button{
+    width: 158px;
+    height: 40px;
+    background-color: $black;
+    color: $white;
+    border: none;
+    cursor: pointer;
+}
+}
+
+main{
+    section.first{
+        height: 810px;
+        width: 100%;
+        background-image: url(./images/03925493463b8b5e9fc41e2b457d602e5a4947ec.png);
+        div.feature{
+            height: 387px;
+            width: 700px;
+            padding: 122px 10px 122px 112px;
+            p.head{
+                font-weight: 700;
+                line-height: 100%;
+                font-size: 17px;
+                letter-spacing: 2px;
+                color: $white;
+                margin-bottom: 24px;
+            }
+            h2{
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 48px;
+                letter-spacing: 4.17px;
+                color: $white;
+                width: 300px;
+            }
+            div.author{
+                margin: 16px 0 24px 0;
+                display: flex;
+                align-items: center;
+                gap: 9px;
+                span{
+                   color: $white;
+                   opacity: 75%; 
+                   font-size: 13px;
+                }
+                a{
+                    font-weight: 400;
+                    font-size: 13px;
+                    color: $white;
+                }
+            }
+            p.text{
+                margin-bottom: 24px;
+                width: 387px;
+                color: $white;
+                opacity: 60%;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+            }
+            div.story{
+        
+                a{
+                    text-decoration: none;
+                    font-weight: 700;
+                    font-size: 12px;
+                    letter-spacing: 2px;
+                    color: $white;
+                }
+            }
+        }
+    }
+    section.second{
+        div.card{
+            position: relative;
+            div.cardimage{
+              img{
+                width: 360px;
+              }
+            }
+            div.story_overlay{
+                bottom: 40px;
+                left: 40px;
+                position: absolute;
+                div.line{
+                    background-color:$white;
+                    height: 1px;
+                    width: 280px;
+                    opacity: 25%;
+                    margin: 16px 0 20px 0;
+                }
+                span.story_date{
+                    font-weight: 400;
+                    font-size: 13px;
+                    color: $white;
+                }
+                h3.story_title{
+                    margin: 4px 0 4px 0;
+                   color: $white;
+                   font-weight: 700;
+                   font-size: 18px;
+                   line-height: 25px; 
+                }
+                p.story_author{
+                    color: $white;
+                    font-size: 13px;
+                    font-weight: 400;
+
+                }
+                div.read{
+                   display: flex;
+                   justify-content: space-between;
+                    a{
+                        color: $white;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
