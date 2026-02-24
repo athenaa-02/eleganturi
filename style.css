@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+* {
+  font-family: "DM Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 72px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  gap: 37px;
+  list-style: none;
+}
+header nav ul li {
+  cursor: pointer;
+}
+header nav ul li a {
+  -webkit-text-decoration: nones;
+          text-decoration: nones;
+  color: #000000;
+}
+header div.headlogo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+header div.headlogo img {
+  height: 16px;
+  width: 17px;
+}
+header button {
+  width: 158px;
+  height: 40px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+main section.first {
+  height: 810px;
+  width: 100%;
+  background-image: url(./images/03925493463b8b5e9fc41e2b457d602e5a4947ec.png);
+}
+main section.first div.feature {
+  height: 387px;
+  width: 700px;
+  padding: 122px 10px 122px 112px;
+}
+main section.first div.feature p.head {
+  font-weight: 700;
+  line-height: 100%;
+  font-size: 17px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+main section.first div.feature h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 4.17px;
+  color: #ffffff;
+  width: 300px;
+}
+main section.first div.feature div.author {
+  margin: 16px 0 24px 0;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+main section.first div.feature div.author span {
+  color: #ffffff;
+  opacity: 75%;
+  font-size: 13px;
+}
+main section.first div.feature div.author a {
+  font-weight: 400;
+  font-size: 13px;
+  color: #ffffff;
+}
+main section.first div.feature p.text {
+  margin-bottom: 24px;
+  width: 387px;
+  color: #ffffff;
+  opacity: 60%;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}
+main section.first div.feature div.story a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+main section.second div.card {
+  position: relative;
+}
+main section.second div.card div.cardimage img {
+  width: 360px;
+}
+main section.second div.card div.story_overlay {
+  bottom: 40px;
+  left: 40px;
+  position: absolute;
+}
+main section.second div.card div.story_overlay div.line {
+  background-color: #ffffff;
+  height: 1px;
+  width: 280px;
+  opacity: 25%;
+  margin: 16px 0 20px 0;
+}
+main section.second div.card div.story_overlay span.story_date {
+  font-weight: 400;
+  font-size: 13px;
+  color: #ffffff;
+}
+main section.second div.card div.story_overlay h3.story_title {
+  margin: 4px 0 4px 0;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+}
+main section.second div.card div.story_overlay p.story_author {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+}
+main section.second div.card div.story_overlay div.read {
+  display: flex;
+  justify-content: space-between;
+}
+main section.second div.card div.story_overlay div.read a {
+  color: #ffffff;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
